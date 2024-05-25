@@ -8,7 +8,7 @@ interface Movie {
 
 function ItemCard({ title, imgMovie, year }: Movie) {
   return (
-    <div className="max-w-sm rounded overflow-hidden shadow-lg m-4">
+    <div className="max-w-sm rounded overflow-hidden shadow-lg m-4 bg-white">
         <Image
         src={imgMovie}
         alt={title}
